@@ -3,12 +3,11 @@
 
 ##Setting Up
 
-`git clone https://github.com/hackerkid/book-library`
+```bash
+git clone https://github.com/hackerkid/book-library
+cd book-library
+npm install
+node server.js
+```
 
-`cd book-library`
-
-`npm install`
-
-`node server.js`
-
-Browse to localhost:4371 for acessing the bookshelf. Make sure to have MongoDB installed before trying out this. 
+Browse to [localhost:4711](http://localhost:4711) for accessing the bookshelf. Make sure to have MongoDB installed before trying out this. 
